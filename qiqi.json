@@ -39,17 +39,12 @@
                 "ratio": 1.618
             }
         },
-        {
-            "key": "企鹅崽崽1",
-            "name": "😺企鹅崽崽1",
+       {
+            "key": "😺企鹅崽崽1",
+            "name": "😺企鹅崽崽｜4k解析1",
             "type": 3,
-            "api": "https://raw.githubusercontent.com/qiqi-vd/qiqi/refs/heads/main/loca/js/drpy2.min.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "order_num": 0,
-            "changeable": 0,
-            "ext": "https://raw.githubusercontent.com/qiqi-vd/qiqi/refs/heads/main/loca/drpy_js/tm.js"
+            "api": "http://110.42.99.99:3722/yydd/lib/drpy2.min.js",
+            "ext": "https://d.kstore.dev/download/10787/js/腾云驾雾[官].js"
         },
         {
             "key": "企鹅崽崽2",
