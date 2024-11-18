@@ -1,0 +1,18 @@
+{
+    "warningText": "接口免费，切勿付费。",
+    "warningText": "关注公众号:拾光趣乐屋。",
+    "urls": [
+        {
+            "url": "clan://localhost/loca/json/qiqi.json",
+            "name": "本地普通"
+        },
+        {
+            "url": "clan://localhost/loca/json/qiqi4k.json",
+            "name": "本地4k"
+        },
+        {
+            "url": "clan://localhost/loca/json/qiqijx.json",
+            "name": "本地解析"
+        }
+    ]
+}
