@@ -17,7 +17,7 @@
         },
         {
             "key": "预告",
-            "name": "📅丨更新时间 11月18日",
+            "name": "📅丨更新时间 11月25日",
             "type": 3,
             "api": "csp_YGP",
             "style": {
@@ -162,7 +162,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://mogg.top",
+                "site": "http://www.muoupan.top/",
                 "danmu": true
             }
         },
@@ -177,13 +177,13 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "http://duopan.fun/",
+                "site": "http://duopan.fun",
                 "danmu": true
             }
         },
         {
-            "key": "夸克至臻弹幕",
-            "name": "🏆️夸克至臻",
+            "key": "至臻网盘",
+            "name": "⚡️至臻4K｜弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -193,12 +193,12 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://mihdr.top",
+                "site": "http://mucpan.cc/",
                 "danmu": true
             }
         },
         {
-            "key": "多多网盘",
+            "key": "小米网盘",
             "name": "🐑小米4K｜弹幕",
             "type": 3,
             "api": "csp_Wobg",
@@ -230,7 +230,7 @@
         },
         {
             "key": "欧歌网盘",
-            "name": "👌🏻欧歌4K｜弹幕",
+            "name": "🐲欧歌4K｜弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -260,16 +260,6 @@
                 "site": "https://libvio.link",
                 "danmu": true
             }
-        },
-        {
-            "key": "欧歌网盘js",
-            "name": "🐲欧歌4K┃js版",
-            "type": 3,
-            "api": "https://xn--tkh-mf3g9f.v.nxog.top/m//js/4k.min.js",
-            "ext": "https://xn--tkh-mf3g9f.v.nxog.top/m//js/og4K.js",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
         },
         {
             "key": "六维磁力",
