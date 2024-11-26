@@ -17,7 +17,7 @@
         },
         {
             "key": "预告",
-            "name": "📅丨更新时间 11月25日",
+            "name": "📅丨更新时间 11月26日",
             "type": 3,
             "api": "csp_YGP",
             "style": {
@@ -106,6 +106,20 @@
                 "ratio": 0.65
             },
             "ext": "./drpy_js/月惜花晨.js"
+        },
+        {
+            "key": "影探4k",
+            "name": "影探4k",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./drpy_js/影探4k.js",
+            "*": [
+                "http://111.230.103.97/svip/jx/mxhy.php?url="
+            ]
         },
         {
             "key": "😺奇珍异兽",
