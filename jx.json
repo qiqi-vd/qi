@@ -81,7 +81,13 @@
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/爱奇艺.js"
-        }
+        },
+         {
+      "key": "我的本地",
+      "name": "本地视频",
+      "type": 3,
+      "api": "csp_LocalFile"
+    }
     ],
     "parses": [
         {
