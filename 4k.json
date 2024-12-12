@@ -582,6 +582,12 @@
                 "type": "list"
             }
         },
+      {
+      "key": "我的本地",
+      "name": "本地视频",
+      "type": 3,
+      "api": "csp_LocalFile"
+    },
         {
             "key": "push_agent",
             "name": "手机｜推送",
