@@ -286,6 +286,7 @@
             "changeable": 1,
             "jar": "./wex.jar"
         },
+        {"key":"人人视频","name":"人人｜4k","type":4,"api":"http://111.229.188.154:5757/api/普天同","searchable":1,"ext":""},
         {
             "key": "南瓜弹幕",
             "name": "南瓜｜弹幕",
