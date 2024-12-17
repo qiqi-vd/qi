@@ -17,7 +17,7 @@
         },
         {
             "key": "预告",
-             "name": "📅丨更新时间 12月17日",
+            "name": "📅丨更新时间 12月17日",
             "type": 3,
             "api": "csp_YGP",
             "style": {
@@ -215,7 +215,6 @@
                 "danmu": true
             }
         },
-        
         {
             "key": "立播弹幕",
             "name": "立播｜弹幕",
@@ -287,23 +286,32 @@
             "changeable": 1,
             "jar": "./wex.jar"
         },
-         {
-      "key": "哔哩弹幕",
-      "name": "哔哩4K｜弹幕",
-      "type": 3,
-      "api": "csp_Bilimd",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": {
-        "cookie": "http://1.94.221.189:80/tvbox/cookie/bilicookie.php"
-      },
-      "timeout": 10
-    },
+        {
+            "key": "盘他",
+            "name": "盘他｜4K‍",
+            "type": 3,
+            "api": "csp_WexYDpanta",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./wex.jar"
+        },
+        {
+            "key": "哔哩弹幕",
+            "name": "哔哩4K｜弹幕",
+            "type": 3,
+            "api": "csp_Bilimd",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "ext": {
+                "cookie": "http://1.94.221.189:80/tvbox/cookie/bilicookie.php"
+            },
+            "timeout": 10
+        },
         {
             "key": "南瓜弹幕",
             "name": "南瓜｜弹幕",
@@ -581,11 +589,28 @@
             "ext": "./JS/天堂短剧.js"
         },
         {
-            "key": "爱你短剧",
-            "name": "爱你｜短剧",
+            "key": "吉吉短剧",
+            "name": "吉吉｜短剧",
             "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/爱你短剧.js"
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/吉吉短剧.json"
+        },
+        {
+            "key": "爱我短剧",
+            "name": "爱我｜短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "./XBPQ/爱我短剧.json"
+        },
+        {
+            "key": "短剧网",
+            "name": "短剧网｜短剧",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/短剧网.json"
         },
         {
             "key": "短剧屋",
@@ -1331,6 +1356,19 @@
             "ext": "./JS/Anime1.js"
         },
         {
+            "key": "哆啦新番社",
+            "name": "哆啦｜新番社",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "list"
+            },
+            "ext": "./XBPQ/哆啦新番社.json"
+        },
+        {
             "key": "动画片",
             "name": "动画片｜动漫",
             "type": 3,
@@ -1814,12 +1852,12 @@
             "changeable": 0,
             "jar": "./wex.jar"
         },
-         {
-      "key": "我的本地",
-      "name": "本地视频",
-      "type": 3,
-      "api": "csp_LocalFile"
-    },
+        {
+            "key": "我的本地",
+            "name": "本地视频",
+            "type": 3,
+            "api": "csp_LocalFile"
+        },
         {
             "key": "push_agent",
             "name": "手机｜推送",
