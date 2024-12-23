@@ -1,57 +1,57 @@
 {
-    "spider": "./spider.jar",
-    "logo": "./logo/logo.jpg",
-    "wallpaper": "./logo/logo.jpg",
+    "spider": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/spider.jar",
+    "logo": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
+    "wallpaper": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
     "sites": [
         {
             "key": "88看球",
             "name": "88｜看球",
             "type": 3,
-            "api": "./JS/drpy2.min.js",
+            "api": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
             "style": {
                 "type": "list"
             },
-            "ext": "./JS/88看球.js"
+            "ext": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/88看球.js"
         },
         {
             "key": "310直播",
             "name": "310｜直播",
             "type": 3,
-            "api": "./JS/drpy2.min.js",
+            "api": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
             "style": {
                 "type": "list"
             },
-            "ext": "./JS/310直播.js"
+            "ext": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/310直播.js"
         },
         {
             "key": "360吧",
             "name": "360｜直播",
             "type": 3,
-            "api": "./JS/drpy2.min.js",
+            "api": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
             "style": {
                 "type": "list"
             },
-            "ext": "./JS/360吧.js"
+            "ext": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/360吧.js"
         },
         {
             "key": "武享吧",
             "name": "武享吧｜格斗",
             "type": 3,
-            "api": "./JS/drpy2.min.js",
+            "api": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
             "style": {
                 "type": "list"
             },
-            "ext": "./JS/武享吧.js"
+            "ext": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/武享吧.js"
         },
         {
             "key": "JRKAN直播",
             "name": "JRKAN｜直播",
             "type": 3,
-            "api": "./JS/drpy2.min.js",
+            "api": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
             "style": {
                 "type": "list"
             },
-            "ext": "./JS/JRKAN直播.js"
+            "ext": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/JRKAN直播.js"
         },
         {
             "key": "push_agent",
