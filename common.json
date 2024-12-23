@@ -403,62 +403,7 @@
             },
             "timeout": 10
         },
-        {
-            "key": "腾讯弹幕",
-            "name": "企鹅｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/腾讯弹幕.js"
-        },
-        {
-            "key": "腾讯视频",
-            "name": "企鹅｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/腾讯视频.js"
-        },
-        {
-            "key": "芒果弹幕",
-            "name": "芒芒｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/芒果弹幕.js"
-        },
-        {
-            "key": "月惜花晨2",
-            "name": "芒芒｜普通",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/芒果视频.js"
-        },
-        {
-            "key": "优酷弹幕",
-            "name": "酷酷｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/优酷弹幕.js"
-        },
-        {
-            "key": "优酷视频",
-            "name": "酷酷｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/优酷视频.js"
-        },
-        {
-            "key": "爱奇艺弹幕",
-            "name": "艺艺｜弹幕",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/爱奇艺弹幕.js"
-        },
-        {
-            "key": "爱奇艺",
-            "name": "艺艺｜视频",
-            "type": 3,
-            "api": "./JS/drpy2.min.js",
-            "ext": "./JS/爱奇艺.js"
-        },
+        
         {
             "key": "米兔弹幕",
             "name": "米兔｜弹幕",
