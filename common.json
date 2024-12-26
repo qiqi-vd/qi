@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "豆瓣",
+            "name": "🐰丨防失联:Q群：950080131",
             "type": 3,
             "api": "csp_Douban",
             "style": {
@@ -17,7 +17,7 @@
         },
         {
             "key": "预告",
-            "name": "预告",
+            "name": "📅丨更新时间 12月17日",
             "type": 3,
             "api": "csp_YGP",
             "style": {
@@ -216,6 +216,21 @@
             }
         },
         {
+            "key": "闪电",
+            "name": "闪电",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "site": "http://feimaouc.cloud:666",
+                "danmu": true
+            }
+        },
+        {
             "key": "立播弹幕",
             "name": "立播｜弹幕",
             "type": 3,
@@ -387,6 +402,62 @@
             }
         },
         {
+            "key": "腾讯弹幕",
+            "name": "企鹅｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/腾讯弹幕.js"
+        },
+        {
+            "key": "腾讯视频",
+            "name": "企鹅｜视频",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/腾讯视频.js"
+        },
+        {
+            "key": "芒果弹幕",
+            "name": "芒芒｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/芒果弹幕.js"
+        },
+        {
+            "key": "月惜花晨2",
+            "name": "芒芒｜普通",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/芒果视频.js"
+        },
+        {
+            "key": "优酷弹幕",
+            "name": "酷酷｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/优酷弹幕.js"
+        },
+        {
+            "key": "优酷视频",
+            "name": "酷酷｜视频",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/优酷视频.js"
+        },
+        {
+            "key": "爱奇艺弹幕",
+            "name": "艺艺｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/爱奇艺弹幕.js"
+        },
+        {
+            "key": "爱奇艺",
+            "name": "艺艺｜视频",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/爱奇艺.js"
+        },
+        {
             "key": "哔哩弹幕",
             "name": "哔哩｜弹幕",
             "type": 3,
@@ -403,7 +474,6 @@
             },
             "timeout": 10
         },
-        
         {
             "key": "米兔弹幕",
             "name": "米兔｜弹幕",
@@ -1820,6 +1890,47 @@
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "danmu": true
             }
+        }
+    ],
+    "parses": [
+        {
+            "name": "聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "QQ群：950080131",
+            "type": 1,
+            "url": "http://1.94.221.189:88/algorithm.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "qiqi整理 Q群：950080131",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
         }
     ],
     "parses": [
