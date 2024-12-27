@@ -666,6 +666,26 @@
             "ext": "https://www.tvkuys.xyz/api.php/app/"
         },
         {
+            "key": "皮皮虾",
+            "name": "皮皮虾｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://38.55.250.149:1314/api.php/app/"
+        },
+        {
+            "key": "HG影视",
+            "name": "HG影视｜APP",
+            "type": 3,
+            "api": "csp_AppYsV2",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://cs.hgyx.vip/api2/api.php/app/"
+        },
+        {
             "key": "南瓜影视",
             "name": "南瓜｜APP",
             "type": 3,
@@ -1969,7 +1989,18 @@
             }
         },
         {
-            "name": "qiqi整理 Q群：950080131",
+            "name": "皮皮虾",
+            "type": "1",
+            "url": "http://45.207.215.101:5423/index.php?url=",
+            "ext": {
+                "flag": [
+                    "PPXLG",
+                    "皮皮虾4K"
+                ]
+            }
+        },
+        {
+            "name": "牛马整理 Q群：950080131",
             "type": 0,
             "url": "https://jx.m3u8.tv/jiexi/?url="
         }
