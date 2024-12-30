@@ -801,6 +801,25 @@
             }
         },
         {
+            "key": "光影",
+            "name": "光影｜视频",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/光影.js"
+        },
+        {
+            "key": "皮皮虾2",
+            "name": "皮皮虾｜视频",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": {
+                "搜索url": "http://www.ppxys.vip/vodsearch.html?wd={wd}",
+                "简介": "牛马提示您，不要相信任何广告 ",
+                "分类url": "http://www.ppxys.vip/s/{cateId}.html",
+                "分类": "剧集$1#电影$2#动漫$3"
+            }
+        },
+        {
             "key": "瓜子",
             "name": "西瓜2K｜蓝光",
             "type": 3,
