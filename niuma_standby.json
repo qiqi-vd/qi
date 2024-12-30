@@ -1,0 +1,32 @@
+{
+  "urls": [
+     {
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qiqi-vd/qi/refs/heads/main/common.json",
+      "name": "牛马主线gb"
+    },
+    {
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qiqi-vd/qi/refs/heads/main/jx.json",
+      "name": "牛马jxgb"
+    },
+    {
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qiqi-vd/qi/refs/heads/main/film.json",
+      "name": "牛马影视gb"
+    },
+    {
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qiqi-vd/qi/refs/heads/main/cloud.json",
+      "name": "牛马云盘gb"
+    },
+    {
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qiqi-vd/qi/refs/heads/main/anime.json",
+      "name": "牛马动漫gb"
+    },
+    {
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qiqi-vd/qi/refs/heads/main/sport.json",
+      "name": "牛马体育gb"
+    },
+    {
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/qiqi-vd/qi/refs/heads/main/education.json",
+      "name": "牛马教育gb"
+    }
+  ]
+}
