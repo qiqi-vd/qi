@@ -437,6 +437,7 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
+                "线路数组":"module-tab-value&&</span>",
                 "搜索url": "http://www.ppxys.vip/vodsearch.html?wd={wd}",
                 "简介": "牛马提示您，不要相信任何广告 ",
                 "分类url": "http://www.ppxys.vip/s/{cateId}.html",
