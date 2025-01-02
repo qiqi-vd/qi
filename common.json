@@ -217,7 +217,7 @@
         },
         {
             "key": "闪电",
-            "name": "闪电",
+            "name": "闪电｜4K弹幕",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -226,7 +226,7 @@
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "site": "http://feimaouc.cloud:666",
+                "site": "http://1.95.79.193",
                 "danmu": true
             }
         },
@@ -813,7 +813,6 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
-                "线路数组":"module-tab-value&&</span>",
                 "搜索url": "http://www.ppxys.vip/vodsearch.html?wd={wd}",
                 "简介": "牛马提示您，不要相信任何广告 ",
                 "分类url": "http://www.ppxys.vip/s/{cateId}.html",

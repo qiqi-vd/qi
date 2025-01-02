@@ -1,7 +1,7 @@
 {
-    "spider": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/spider.jar",
-    "logo": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
-    "wallpaper": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
+    "spider": "./spider.jar",
+    "logo": "./logo/logo.jpg",
+    "wallpaper": "./logo/logo.jpg",
     "sites": [
         {
             "key": "豆瓣",
@@ -39,7 +39,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "jar": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "玩偶弹幕",
@@ -103,6 +103,21 @@
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
                 "site": "http://ucmi.fun",
+                "danmu": true
+            }
+        },
+        {
+            "key": "闪电",
+            "name": "闪电｜4K弹幕",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "site": "http://1.95.79.193",
                 "danmu": true
             }
         },
@@ -245,7 +260,7 @@
             "style": {
                 "type": "list"
             },
-            "jar": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "雷鲸",
@@ -254,7 +269,7 @@
             "api": "csp_Wexleijing",
             "searchable": 1,
             "changeable": 1,
-            "jar": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "天翼",
@@ -263,7 +278,7 @@
             "api": "csp_Wextyso",
             "searchable": 1,
             "changeable": 0,
-            "jar": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "Emby",
@@ -272,7 +287,7 @@
             "api": "csp_Wexemby",
             "searchable": 1,
             "changeable": 1,
-            "jar": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "盘他",
@@ -281,7 +296,7 @@
             "api": "csp_WexYDpanta",
             "searchable": 1,
             "changeable": 1,
-            "jar": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "哔哩弹幕",
@@ -296,7 +311,7 @@
                 "ratio": 1.597
             },
             "ext": {
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bilibili.txt"
+                "cookie": "./cookie/bilicookie.txt"
             },
             "timeout": 10
         },
@@ -534,7 +549,7 @@
             "indexs": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "share": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/alishare.txt"
+                "share": "./JS/alishare.txt"
             },
             "style": {
                 "type": "list"
