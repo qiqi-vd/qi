@@ -1,13 +1,24 @@
 {
-    "spider": "./spider.jar",
-    "logo": "./logo/logo.jpg",
-    "wallpaper": "./logo/logo.jpg",
+    "spider": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/spider.jar",
+    "logo": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
+    "wallpaper": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
     "sites": [
         {
             "key": "豆瓣",
-            "name": "豆瓣",
+            "name": "🐰丨防失联:Q群：950080131",
             "type": 3,
             "api": "csp_Douban",
+            "style": {
+                "type": "rect",
+                "ratio": 0.65
+            },
+            "searchable": 0
+        },
+        {
+            "key": "预告",
+            "name": "📅丨更新时间 1月6",
+            "type": 3,
+            "api": "csp_YGP",
             "style": {
                 "type": "rect",
                 "ratio": 0.65
@@ -39,11 +50,11 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "jar": "./wex.jar"
+            "jar": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
         },
         {
-            "key": "玩偶弹幕",
-            "name": "玩偶哥哥｜4K弹幕",
+            "key": "玩偶 ",
+            "name": "玩偶哥哥｜4K ",
             "type": 3,
             "api": "csp_Wogg",
             "searchable": 1,
@@ -58,8 +69,8 @@
             }
         },
         {
-            "key": "玩偶备用弹幕",
-            "name": "玩偶｜4K弹幕",
+            "key": "玩偶备用 ",
+            "name": "玩偶｜4K ",
             "type": 3,
             "api": "csp_Wogg",
             "quickSearch": 1,
@@ -74,8 +85,8 @@
             }
         },
         {
-            "key": "夸克欧歌弹幕",
-            "name": "欧哥｜4K弹幕",
+            "key": "夸克欧歌 ",
+            "name": "欧哥｜4K ",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -91,8 +102,8 @@
             }
         },
         {
-            "key": "夸克小米弹幕",
-            "name": "小米｜4K弹幕",
+            "key": "夸克小米 ",
+            "name": "小米｜4K ",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -107,8 +118,24 @@
             }
         },
         {
+            "key": "小米",
+            "name": "小米| 4K ",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://www.mucpan.cc",
+                "danmu": true
+            }
+        },
+        {
             "key": "闪电",
-            "name": "闪电｜4K弹幕",
+            "name": "闪电｜4K ",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -122,8 +149,8 @@
             }
         },
         {
-            "key": "夸克多多弹幕",
-            "name": "多多｜4K弹幕",
+            "key": "夸克多多 ",
+            "name": "多多｜4K ",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -138,8 +165,8 @@
             }
         },
         {
-            "key": "夸克蜡笔弹幕",
-            "name": "蜡笔｜4K弹幕",
+            "key": "夸克蜡笔 ",
+            "name": "蜡笔｜4K ",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -154,8 +181,8 @@
             }
         },
         {
-            "key": "夸克至臻弹幕",
-            "name": "至臻｜4K弹幕",
+            "key": "夸克至臻 ",
+            "name": "至臻｜4K ",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -170,8 +197,8 @@
             }
         },
         {
-            "key": "夸克土豆弹幕",
-            "name": "土豆｜4K弹幕",
+            "key": "夸克土豆 ",
+            "name": "土豆｜4K ",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -186,8 +213,23 @@
             }
         },
         {
-            "key": "夸克木偶弹幕",
-            "name": "木偶｜4K弹幕",
+            "key": "奥秘",
+            "name": "奥秘|4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "site": "https://vip.omii.top/",
+                "danmu": true
+            }
+        },
+        {
+            "key": "夸克木偶 ",
+            "name": "木偶｜4K ",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -202,8 +244,8 @@
             }
         },
         {
-            "key": "夸克六趣弹幕",
-            "name": "六趣｜4K弹幕",
+            "key": "夸克六趣 ",
+            "name": "六趣｜4K ",
             "type": 3,
             "api": "csp_Wobg",
             "searchable": 1,
@@ -219,8 +261,40 @@
             }
         },
         {
-            "key": "立播弹幕",
-            "name": "立播｜弹幕",
+            "key": "虎斑",
+            "name": "虎斑｜4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://wp.huban.xyz",
+                "danmu": true
+            }
+        },
+        {
+            "key": "下饭",
+            "name": "下饭｜4K",
+            "type": 3,
+            "api": "csp_Wobg",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1,
+            "ext": {
+                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+                "site": "http://txfyyds.top",
+                "danmu": true
+            }
+        },
+        {
+            "key": "立播 ",
+            "name": "立播｜4K ",
             "type": 3,
             "api": "csp_Libvio",
             "searchable": 1,
@@ -235,21 +309,6 @@
             }
         },
         {
-            "key": "立播影视",
-            "name": "立播｜影视",
-            "type": 3,
-            "api": "csp_Libvio",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://www.libvio.cc"
-            }
-        },
-        {
             "key": "115",
             "name": "115｜4K",
             "type": 3,
@@ -260,7 +319,7 @@
             "style": {
                 "type": "list"
             },
-            "jar": "./wex.jar"
+            "jar": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
         },
         {
             "key": "雷鲸",
@@ -269,7 +328,7 @@
             "api": "csp_Wexleijing",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./wex.jar"
+            "jar": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
         },
         {
             "key": "天翼",
@@ -278,7 +337,7 @@
             "api": "csp_Wextyso",
             "searchable": 1,
             "changeable": 0,
-            "jar": "./wex.jar"
+            "jar": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
         },
         {
             "key": "Emby",
@@ -287,7 +346,7 @@
             "api": "csp_Wexemby",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./wex.jar"
+            "jar": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
         },
         {
             "key": "盘他",
@@ -296,24 +355,45 @@
             "api": "csp_WexYDpanta",
             "searchable": 1,
             "changeable": 1,
-            "jar": "./wex.jar"
+            "jar": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
         },
         {
-            "key": "哔哩弹幕",
-            "name": "哔哩4K｜弹幕",
+            "key": "皮皮虾",
+            "name": "皮皮虾｜APP",
             "type": 3,
-            "api": "csp_Bilimd",
+            "api": "csp_AppYsV2",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            },
-            "ext": {
-                "cookie": "./cookie/bilicookie.txt"
-            },
-            "timeout": 10
+            "ext": "http://38.55.250.149:1314/api.php/app/"
+        },
+        {
+            "key": "腾讯 ",
+            "name": "企鹅｜4K ",
+            "type": 3,
+            "api": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
+            "ext": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/腾讯弹幕.js"
+        },
+        {
+            "key": "芒果 ",
+            "name": "芒芒｜4K ",
+            "type": 3,
+            "api": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
+            "ext": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/芒果弹幕.js"
+        },
+        {
+            "key": "优酷 ",
+            "name": "酷酷｜4K ",
+            "type": 3,
+            "api": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
+            "ext": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/优酷弹幕.js"
+        },
+        {
+            "key": "爱奇艺 ",
+            "name": "艺艺｜4K",
+            "type": 3,
+            "api": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
+            "ext": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/爱奇艺弹幕.js"
         },
         {
             "key": "夸克影搜弹幕",
@@ -549,7 +629,7 @@
             "indexs": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "share": "./JS/alishare.txt"
+                "share": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/alishare.txt"
             },
             "style": {
                 "type": "list"
@@ -576,6 +656,51 @@
             "name": "聚合",
             "type": 3,
             "url": "Demo"
+        },
+        {
+            "name": "QQ群：950080131",
+            "type": 1,
+            "url": "http://1.94.221.189:88/algorithm.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+        {
+            "name": "皮皮虾",
+            "type": "1",
+            "url": "http://45.207.215.101:5423/index.php?url=",
+            "ext": {
+                "flag": [
+                    "PPXLG",
+                    "皮皮虾4K"
+                ]
+            }
+        },
+        {
+            "name": "牛马整理 Q群：950080131",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
         }
     ],
     "rules": [

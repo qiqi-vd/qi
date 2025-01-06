@@ -4,6 +4,28 @@
     "wallpaper": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
     "sites": [
         {
+            "key": "豆瓣",
+            "name": "🐰丨防失联:Q群：950080131",
+            "type": 3,
+            "api": "csp_Douban",
+            "style": {
+                "type": "rect",
+                "ratio": 0.65
+            },
+            "searchable": 0
+        },
+        {
+            "key": "预告",
+            "name": "📅丨更新时间 1月6",
+            "type": 3,
+            "api": "csp_YGP",
+            "style": {
+                "type": "rect",
+                "ratio": 0.65
+            },
+            "searchable": 0
+        },
+        {
             "key": "56动漫",
             "name": "56｜动漫",
             "type": 3,
