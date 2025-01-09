@@ -1,7 +1,7 @@
 {
-    "spider": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/spider.jar",
-    "logo": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
-    "wallpaper": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
+    "spider": "./spider.jar",
+    "logo": "./logo/logo.jpg",
+    "wallpaper": "./logo/logo.jpg",
     "sites": [
         {
             "key": "豆瓣",
@@ -50,7 +50,7 @@
                 "type": "rect",
                 "ratio": 1.597
             },
-            "jar": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "玩偶 ",
@@ -119,7 +119,7 @@
         },
         {
             "key": "小米",
-            "name": "小米| 4K ",
+            "name": "小米｜4K ",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -272,7 +272,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://wp.huban.xyz",
+                "site": "http://45.207.212.215:12121/",
                 "danmu": true
             }
         },
@@ -294,7 +294,7 @@
         },
         {
             "key": "立播 ",
-            "name": "立播｜4K ",
+            "name": "立播｜4K",
             "type": 3,
             "api": "csp_Libvio",
             "searchable": 1,
@@ -319,7 +319,7 @@
             "style": {
                 "type": "list"
             },
-            "jar": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "雷鲸",
@@ -328,7 +328,7 @@
             "api": "csp_Wexleijing",
             "searchable": 1,
             "changeable": 1,
-            "jar": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "天翼",
@@ -337,7 +337,7 @@
             "api": "csp_Wextyso",
             "searchable": 1,
             "changeable": 0,
-            "jar": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "Emby",
@@ -346,7 +346,7 @@
             "api": "csp_Wexemby",
             "searchable": 1,
             "changeable": 1,
-            "jar": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "盘他",
@@ -355,7 +355,7 @@
             "api": "csp_WexYDpanta",
             "searchable": 1,
             "changeable": 1,
-            "jar": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/wex.jar"
+            "jar": "./wex.jar"
         },
         {
             "key": "皮皮虾",
@@ -371,33 +371,33 @@
             "key": "腾讯 ",
             "name": "企鹅｜4K ",
             "type": 3,
-            "api": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
-            "ext": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/腾讯弹幕.js"
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/腾讯弹幕.js"
         },
         {
             "key": "芒果 ",
             "name": "芒芒｜4K ",
             "type": 3,
-            "api": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
-            "ext": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/芒果弹幕.js"
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/芒果弹幕.js"
         },
         {
             "key": "优酷 ",
-            "name": "酷酷｜4K ",
+            "name": "酷酷｜1K ",
             "type": 3,
-            "api": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
-            "ext": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/优酷弹幕.js"
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/优酷弹幕.js"
         },
         {
             "key": "爱奇艺 ",
-            "name": "艺艺｜4K",
+            "name": "艺艺｜1K ",
             "type": 3,
-            "api": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
-            "ext": " https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/爱奇艺弹幕.js"
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/爱奇艺弹幕.js"
         },
         {
-            "key": "夸克影搜弹幕",
-            "name": "影搜｜弹幕",
+            "key": "夸克影搜 ",
+            "name": "影搜｜弹幕 ",
             "type": 3,
             "api": "csp_Yingso",
             "searchable": 1,
@@ -410,8 +410,8 @@
             }
         },
         {
-            "key": "搜索弹幕",
-            "name": "搜索｜弹幕",
+            "key": "搜索 ",
+            "name": "搜索｜弹幕 ",
             "type": 3,
             "api": "csp_PanSearch",
             "searchable": 1,
@@ -423,8 +423,8 @@
             }
         },
         {
-            "key": "云云弹幕",
-            "name": "云云｜弹幕",
+            "key": "云云 ",
+            "name": "云云｜弹幕 ",
             "type": 3,
             "api": "csp_Upys",
             "searchable": 1,
@@ -436,8 +436,8 @@
             }
         },
         {
-            "key": "云搜弹幕",
-            "name": "云搜｜弹幕",
+            "key": "云搜 ",
+            "name": "云搜｜弹幕 ",
             "type": 3,
             "api": "csp_UpYun",
             "searchable": 1,
@@ -449,8 +449,8 @@
             }
         },
         {
-            "key": "盘搜弹幕",
-            "name": "盘搜｜弹幕",
+            "key": "盘搜 ",
+            "name": "盘搜｜弹幕 ",
             "type": 3,
             "api": "csp_PanSou",
             "searchable": 1,
@@ -462,8 +462,8 @@
             }
         },
         {
-            "key": "易搜弹幕",
-            "name": "易搜｜弹幕",
+            "key": "易搜 ",
+            "name": "易搜｜弹幕 ",
             "type": 3,
             "api": "csp_YiSo",
             "searchable": 1,
@@ -476,8 +476,8 @@
             }
         },
         {
-            "key": "云盘弹幕",
-            "name": "云盘｜弹幕",
+            "key": "云盘 ",
+            "name": "云盘｜弹幕 ",
             "type": 3,
             "api": "csp_Yunpan4k",
             "searchable": 1,
@@ -490,8 +490,8 @@
             }
         },
         {
-            "key": "米搜弹幕",
-            "name": "米搜｜弹幕",
+            "key": "米搜 ",
+            "name": "米搜｜弹幕 ",
             "type": 3,
             "api": "csp_Qkpanso",
             "searchable": 1,
@@ -504,8 +504,8 @@
             }
         },
         {
-            "key": "夸搜弹幕",
-            "name": "夸搜｜弹幕",
+            "key": "夸搜 ",
+            "name": "夸搜｜弹幕 ",
             "type": 3,
             "api": "csp_Qkso",
             "searchable": 1,
@@ -517,8 +517,8 @@
             }
         },
         {
-            "key": "小纸条弹幕",
-            "name": "小纸条｜弹幕",
+            "key": "小纸条 ",
+            "name": "小纸条｜弹幕 ",
             "type": 3,
             "api": "csp_XiaoZhiTiao",
             "searchable": 1,
@@ -530,7 +530,7 @@
             }
         },
         {
-            "key": "夸克趣盘搜弹幕",
+            "key": "夸克趣盘搜 ",
             "name": "趣盘搜｜弹幕",
             "type": 3,
             "api": "csp_QuPanSou",
@@ -544,8 +544,8 @@
             }
         },
         {
-            "key": "夸克爱盘搜弹幕",
-            "name": "爱盘搜｜弹幕",
+            "key": "夸克爱盘搜 ",
+            "name": "爱盘搜｜弹幕 ",
             "type": 3,
             "api": "csp_AiPanSou",
             "searchable": 1,
@@ -558,8 +558,8 @@
             }
         },
         {
-            "key": "夸克盘搜弹幕",
-            "name": "夸克盘搜｜弹幕",
+            "key": "夸克盘搜 ",
+            "name": "夸克盘搜｜弹幕 ",
             "type": 3,
             "api": "csp_Qkpanso",
             "searchable": 1,
@@ -629,7 +629,7 @@
             "indexs": 0,
             "ext": {
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "share": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/alishare.txt"
+                "share": "./JS/alishare.txt"
             },
             "style": {
                 "type": "list"
