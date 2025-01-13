@@ -713,26 +713,18 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://38.55.250.149:1314/api.php/app/"
+            "ext": "http://www.ppxys.vip/api.php/app/"
         },
         {
-            "key": "HG影视",
-            "name": "HG影视｜APP",
+            "key": "猎手影视",
+            "name": "猎手｜APP",
             "type": 3,
-            "api": "csp_AppYsV2",
+            "api": "./PY/猎手影视.py",
             "searchable": 1,
+            "changeable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://cs.hgyx.vip/api2/api.php/app/"
-        },
-        {
-            "key": "南瓜影视",
-            "name": "南瓜｜APP",
-            "type": 3,
-            "api": "csp_Nangua",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
+            "playerType": 2
         },
         {
             "key": "天天影视",
@@ -853,6 +845,7 @@
             "type": 3,
             "api": "csp_XBPQ",
             "ext": {
+                "首页": "0",
                 "搜索url": "http://www.ppxys.vip/vodsearch.html?wd={wd}",
                 "简介": "牛马提示您，不要相信任何广告 ",
                 "分类url": "http://www.ppxys.vip/s/{cateId}.html",
@@ -2002,14 +1995,14 @@
                     "1905"
                 ],
                 "header": {
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                    "User-Agent": "okhttp/4.9.1"
                 }
             }
         },
         {
             "name": "皮皮虾",
             "type": "1",
-            "url": "http://45.207.215.101:5423/index.php?url=",
+            "url": "http://jiexi.52ppx.top/index.php?url=",
             "ext": {
                 "flag": [
                     "PPXLG",
@@ -2018,7 +2011,7 @@
             }
         },
         {
-            "name": "牛马整理 Q群：950080131",
+            "name": "qiqi整理 Q群：950080131",
             "type": 0,
             "url": "https://jx.m3u8.tv/jiexi/?url="
         }

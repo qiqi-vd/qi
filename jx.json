@@ -1,7 +1,7 @@
 {
-    "spider": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/spider.jar",
-    "logo": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
-    "wallpaper": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/logo/logo.jpg",
+    "spider": "./spider.jar",
+    "logo": "./logo/logo.jpg",
+    "wallpaper": "./logo/logo.jpg",
     "warningText": "有问题请加群联系Q群：950080131",
     "sites": [
         {
@@ -40,29 +40,29 @@
             "key": "腾讯弹幕",
             "name": "企鹅｜弹幕",
             "type": 3,
-            "api": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
-            "ext": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/腾讯弹幕.js"
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/腾讯弹幕.js"
         },
         {
             "key": "芒果弹幕",
             "name": "芒芒｜弹幕",
             "type": 3,
-            "api": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
-            "ext": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/芒果弹幕.js"
-        },
-        {
-            "key": "爱奇艺弹幕",
-            "name": "艺艺｜弹幕",
-            "type": 3,
-            "api": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
-            "ext": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/爱奇艺弹幕.js"
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/芒果弹幕.js"
         },
         {
             "key": "优酷弹幕",
             "name": "酷酷｜弹幕",
             "type": 3,
-            "api": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/drpy2.min.js",
-            "ext": "https://gitee.com/songxiangweiAndroid/niuma/raw/master/JS/优酷弹幕.js"
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/优酷弹幕.js"
+        },
+        {
+            "key": "爱奇艺弹幕",
+            "name": "艺艺｜弹幕",
+            "type": 3,
+            "api": "./JS/drpy2.min.js",
+            "ext": "./JS/爱奇艺弹幕.js"
         }
     ],
     "parses": [
@@ -103,7 +103,7 @@
         {
             "name": "皮皮虾",
             "type": "1",
-            "url": "http://45.207.215.101:5423/index.php?url=",
+            "url": "http://jiexi.52ppx.top/index.php?url=",
             "ext": {
                 "flag": [
                     "PPXLG",

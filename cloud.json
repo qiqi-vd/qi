@@ -682,14 +682,14 @@
                     "1905"
                 ],
                 "header": {
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                    "User-Agent": "okhttp/4.9.1"
                 }
             }
         },
         {
             "name": "皮皮虾",
             "type": "1",
-            "url": "http://45.207.215.101:5423/index.php?url=",
+            "url": "http://jiexi.52ppx.top/index.php?url=",
             "ext": {
                 "flag": [
                     "PPXLG",
@@ -698,7 +698,7 @@
             }
         },
         {
-            "name": "牛马整理 Q群：950080131",
+            "name": "qiqi整理 Q群：950080131",
             "type": 0,
             "url": "https://jx.m3u8.tv/jiexi/?url="
         }
