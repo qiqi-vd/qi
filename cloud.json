@@ -16,7 +16,7 @@
         },
         {
             "key": "预告",
-            "name": "📅丨更新时间 1月6",
+            "name": "📅丨更新时间 1月20",
             "type": 3,
             "api": "csp_YGP",
             "style": {
@@ -239,7 +239,7 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "http://mogg.小胡.top",
+                "site": "http://www.muoupan.top",
                 "danmu": true
             }
         },
@@ -660,7 +660,7 @@
         {
             "name": "QQ群：950080131",
             "type": 1,
-            "url": "http://1.94.221.189:88/algorithm.php?url=",
+            "url": "http://niiuma.qi-simple.top//algorithm.php?url=",
             "ext": {
                 "flag": [
                     "qq",
